@@ -1,0 +1,12 @@
+{
+    "aws_access_key": "XX",
+    "aws_secret_key": "YY",
+    "region": "us-east-1",
+    "source_ami": "ami-0e2c8caa4b6378d8c",
+    "instance_type": "t2.micro",
+    "vpc_id": "vpc-0f7aa0db71748ce5f",
+    "subnet_id": "subnet-08d8ac364a1b6953e"
+}
+
+#packer validate --var-file packer-vars.json packer.json
+#packer build --var-file packer-vars.json packer.json
